@@ -1,25 +1,4 @@
-//THIS ONE
-
-// // Assignment code here
-// function generatePassword() {
-//   const array1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*(){}[]\|";
-//   self.crypto.getRandomValues(array1);
-
-// var array = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*(){}[]\|";
-// self.crypto.getRandomValues(array);
-
-// console.log("Your lucky numbers:");
-// for (var i = 0; i < array.length; i++) {
-//   console.log(array[i]);
-// }
-
-
-// function generatePassword() {
-// var array = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*(){}[]\|";
-// self.crypto.getRandomValues(array);
-// array.length
-// }
-
+// first functioning attempt to create password with Math.random
 function generatePassword() {
 //crypto.getRandomValues(array1: ArrayBuffer)
 var password = ""
