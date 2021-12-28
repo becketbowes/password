@@ -51,8 +51,13 @@ var codeType = function() {
     localStorage.setItem("string", (this.uppercase + this.lowercase + this.numbers + this.special));
     doIt();
   } else {
-    localStorage.setItem("string", (this.uppercase + this.lowercase + this.numbers + this.special));
-    doIt();
+      if ((this.uppercase + this.lowercase + this.numbers + this.special) === "") {
+        alert("We've got to use something to make the password with!");
+        codeType();
+      } else {
+      localStorage.setItem("string", (this.uppercase + this.lowercase + this.numbers + this.special));
+      doIt();
+    }
   }
   return whatKind;
 };
