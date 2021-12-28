@@ -33,7 +33,7 @@ if (howLong > 128 || howLong < 8) {
 var codeType = function() {
   var whatKind = [uppercase = "", lowercase = "", numbers = "", special = "",];
   while (whatKind === "" || whatKind === null);
-  var whatKind = window.confirm("And how would you like that password? Should there be uppercase letters?");
+  var whatKind = window.confirm("And how would you like that password? Should there be uppercase letters? OK for YES and CANCEL for NO.");
   if (whatKind) {
     this.uppercase = array1;
   } 
